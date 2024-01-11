@@ -17,6 +17,7 @@ describe("Given feedMonkeys", () => {
     const Monkeys = feedMonkeys(fruit);
 
     expect(Monkeys).toBeDefined();
+    expect(Monkeys.length).toBe(3);
     expect(Monkeys).toEqual(EXPECTED_RESULT);
   });
 });
