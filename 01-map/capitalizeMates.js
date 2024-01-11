@@ -10,7 +10,7 @@ const capitalizeMates = function (mates) {
   const matesCapitalLetter = mates.map((element) => {
     return element.charAt(0).toUpperCase() + element.slice(1).toLowerCase();
   });
-  return matesCapitalLetter
+  return matesCapitalLetter;
 };
 
-export default capitalizeMates
+export default capitalizeMates;

@@ -2,7 +2,7 @@ import getLongWords from "./getLongWords.js";
 describe("Given getLongWords", () => {
   test("when [Java, C++, JavaScript, C#, TypeScript] is provided as argument Then exècted array should be returned ", () => {
     const WORDS = ["Java", "C++", "JavaScript", "C#", "TypeScript"];
-    const EXPECTED_RESULT = ['JavaScript', 'TypeScript'];
+    const EXPECTED_RESULT = ["JavaScript", "TypeScript"];
 
     const newCollection = getLongWords(WORDS);
 
@@ -11,7 +11,7 @@ describe("Given getLongWords", () => {
   });
   test("when [John, George, Paul, Ringo] is provided as argument Then exècted array should be returned ", () => {
     const WORDS = ["John", "George", "Paul", "Ringo"];
-    const EXPECTED_RESULT = ['George', 'Ringo'];
+    const EXPECTED_RESULT = ["George", "Ringo"];
 
     const newCollection = getLongWords(WORDS);
 

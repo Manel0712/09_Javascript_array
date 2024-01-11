@@ -55,15 +55,15 @@ const USERS = [
   },];
  */
 
-const extendUsersSettings = function(users) {
-  const userUpdate = users.map((element, index)=>{
+const extendUsersSettings = function (users) {
+  const userUpdate = users.map((element, index) => {
     return {
       ...element,
       id: index,
       isEnabled: true,
-    }
-  })
-  return userUpdate
-}
+    };
+  });
+  return userUpdate;
+};
 
-export default extendUsersSettings
+export default extendUsersSettings;
