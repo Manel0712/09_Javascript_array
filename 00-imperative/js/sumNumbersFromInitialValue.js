@@ -12,11 +12,11 @@ const sumNumbersFromInitialValue = function (numbers, initial) {
   let add = initial;
 
   const collectionLength = numbers.length;
-  
+
   for (let index = 0; index < collectionLength; index++) {
     add += numbers[index];
   }
-  
+
   return add;
 };
 
