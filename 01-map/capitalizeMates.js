@@ -7,9 +7,11 @@
 const MATES = ["john", "JACOB", "jinGleHeimer", "schmidt"];
 
 const capitalizeMates = function (mates) {
+  
   const matesCapitalLetter = mates.map((element) => {
     return element.charAt(0).toUpperCase() + element.slice(1).toLowerCase();
   });
+  
   return matesCapitalLetter;
 };
 

@@ -15,8 +15,8 @@ const getLongWords = function (WORDS) {
 
   for (let index = 0; index < collectionLength; index++) {
     if (WORDS[index].length >= 5) {
-      const Word = WORDS[index];
-      expectedWords.push(Word);
+      const word = WORDS[index];
+      expectedWords.push(word);
     }
   }
 
