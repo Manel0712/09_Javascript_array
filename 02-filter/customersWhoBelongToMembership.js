@@ -32,7 +32,7 @@ const customersWhoBelongToMembership = function (menbers) {
     return menber.member === true;
   });
 
-  return clubMenbers
-}
+  return clubMenbers;
+};
 
-export default customersWhoBelongToMembership
+export default customersWhoBelongToMembership;

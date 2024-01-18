@@ -10,14 +10,13 @@ const LANGUAGES = ["Java", "C++", "JavaScript", "C#", "TypeScript"];
 const BEATLES = ["John", "George", "Paul", "Ringo"];
 
 const getLongWords = function (words) {
+  const filterLongWords = (word) => {
+    return word.length >= 5;
+  };
 
-    const filterLongWords = (word) => {
-        return word.length >= 5;
-    }
+  const longWord = words.filter((word) => filterLongWords(word));
 
-    const longWord = words.filter((word) => filterLongWords(word));
+  return longWord;
+};
 
-    return longWord
-}
-
-export default getLongWords
+export default getLongWords;
