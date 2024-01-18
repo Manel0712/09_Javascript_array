@@ -20,11 +20,11 @@ const VOTERS = [
 ];
 
 const getTotalVoters = function (voters) {
-  const totalVoters = voters.reduce((count, voter)=>{
+  const totalVoters = voters.reduce((count, voter) => {
     return count + Number(voter.voted);
-  }, 0)
+  }, 0);
 
-  return totalVoters
-}
+  return totalVoters;
+};
 
-export default getTotalVoters
+export default getTotalVoters;

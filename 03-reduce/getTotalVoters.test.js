@@ -15,7 +15,7 @@ describe("Given getTotalVoters.js", () => {
       { name: "Jeff", age: 30, voted: true },
       { name: "Zack", age: 19, voted: false },
     ];
-    const EXPECTED_RESULT = 7
+    const EXPECTED_RESULT = 7;
 
     const totalVoters = getTotalVoters(VOTERS);
 

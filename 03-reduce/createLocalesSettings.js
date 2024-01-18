@@ -14,17 +14,16 @@
 const LOCALES = ["EN", "GR", "FR", "IT", "PT"];
 
 const createLocalesSettings = function (locales) {
-    const localesSettings = locales.reduce((newArray, locale, index)=>{
-        newArray[locale] = {
-            id: index,
-            enabled: index === 0,
-        };
+  const localesSettings = locales.reduce((newArray, locale, index) => {
+    newArray[locale] = {
+      id: index,
+      enabled: index === 0,
+    };
 
-        return newArray;
+    return newArray;
+  }, {});
 
-    }, {});
+  return localesSettings;
+};
 
-    return localesSettings;
-}
-
-export default createLocalesSettings
+export default createLocalesSettings;
