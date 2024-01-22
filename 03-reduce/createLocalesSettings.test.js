@@ -1,5 +1,5 @@
 import createLocalesSettings from "./createLocalesSettings.js";
-describe("Given createLocalesSettings.js", () => {
+describe("Given createLocalesSettings", () => {
   test("when an array of strings is given as an argument, then the exected array should be returned ", () => {
     const LOCALES = ["EN", "GR", "FR", "IT", "PT"];
     const EXPECTED_RESULT = {

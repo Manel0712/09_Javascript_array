@@ -1,5 +1,5 @@
 import getTotalVoters from "./getTotalVoters.js";
-describe("Given getTotalVoters.js", () => {
+describe("Given getTotalVoters", () => {
   test("when an array of strings is given as an argument, then the exected array should be returned ", () => {
     const VOTERS = [
       { name: "Bob", age: 30, voted: true },
