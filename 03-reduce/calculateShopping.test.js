@@ -8,7 +8,7 @@ describe("Given calculateShopping", () => {
       { title: "Gold fidgit spinner", price: 2000 },
       { title: "A second Tesla Model S", price: 90000 },
     ];
-    const EXPECTED_RESULT = 227005
+    const EXPECTED_RESULT = 227005;
 
     const totalPrice = calculateShopping(WISHES);
 

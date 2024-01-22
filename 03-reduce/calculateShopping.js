@@ -13,11 +13,11 @@ const WISHES = [
 ];
 
 const calculateShopping = function (wishes) {
-    const totalPrice = wishes.reduce((add, wishe) => {
-        return add + wishe.price
-    }, 0)
+  const totalPrice = wishes.reduce((add, wishe) => {
+    return add + wishe.price;
+  }, 0);
 
-    return totalPrice
-}
+  return totalPrice;
+};
 
-export default calculateShopping
+export default calculateShopping;
