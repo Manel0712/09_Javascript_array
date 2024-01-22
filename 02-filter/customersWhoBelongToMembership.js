@@ -26,3 +26,13 @@ const CUSTOMERS = [
     member: true,
   },
 ];
+
+const customersWhoBelongToMembership = function (menbers) {
+  const clubMenbers = menbers.filter((menber) => {
+    return menber.member === true;
+  });
+
+  return clubMenbers;
+};
+
+export default customersWhoBelongToMembership;
